@@ -9,5 +9,25 @@
     height:100vh;
     width:100%;
     background-image: url('/img/gwag.jpg');
+    background-size:cover;
+    background-position: center;
 
+}
+
+.hero nav {
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+
+.logo {
+    color:white;
+    font-size:35px;
+    letter-spacing: 1px;
+    cursor:pointer;
 }
